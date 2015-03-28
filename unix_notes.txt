@@ -1,4 +1,4 @@
- # Displays Long List
+# Displays Long List
 ll
 
 # Creates file and populates with history
@@ -19,6 +19,7 @@ history | less
 # Displays History
 history
 
+# Changes to home directory
 ~
 ls subl
 ls
