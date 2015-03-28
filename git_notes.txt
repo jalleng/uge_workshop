@@ -1,0 +1,9 @@
+master branch is a label that git creates for us when we initialize our depository.
+
+HEAD is another label that git creates for us when we create our first commit.
+
+Head is *not* a branch
+
+#creates a new branch (label) called git-notes
+
+git branch git notes
