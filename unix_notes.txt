@@ -1,0 +1,150 @@
+ # Displays Long List
+ll
+
+# Creates file and populates with history
+history > moving_around.txt
+
+# Clears screen
+clear
+
+# Displays Long List
+ls -l
+
+# Displays manual section for less
+man less
+
+# Pipes History to Less
+history | less
+
+# Displays History
+history
+
+~
+ls subl
+ls
+ls ..
+ls .
+ls ~
+ls Doc
+cd ../ a
+cd .. ..
+..
+pwd
+cd Assistants/
+cd Keyboard\ Layouts/
+ls Printers/
+cd Library/
+cd ~
+man ls
+ls -o
+ls-o
+ls o
+man
+ls -rtl
+ls -tr
+ls -ltr
+ls -l -t
+ls -t
+cd /
+cd
+git --version
+echo $EDITOR
+subl ~/.config/fish/config.fish
+brew info fish
+brew inf
+brew in
+brew info
+echo $SHELL
+subl /etc/paths
+git config
+brew update
+brew udate
+brew doctor
+brew
+uname
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'jallengerber@gmail.com'
+git config --global user.name 'Jeff Gerber'
+git config --global user.name 'YOUR FULL NAME'
+brew install git
+echo $PATH
+`
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Terminal > Preferences
+ll
+history > moving_around.txt
+clear
+ls -l
+man less
+history | less
+history
+~
+ls subl
+ls
+ls ..
+ls .
+ls ~
+ls Doc
+cd ../ a
+cd .. ..
+..
+pwd
+cd Assistants/
+cd Keyboard\ Layouts/
+ls Printers/
+cd Library/
+cd ~
+man ls
+ls -o
+ls-o
+ls o
+man
+ls -rtl
+ls -tr
+ls -ltr
+ls -l -t
+ls -t
+cd /
+cd
+git --version
+echo $EDITOR
+subl ~/.config/fish/config.fish
+brew info fish
+brew inf
+brew in
+brew info
+echo $SHELL
+subl /etc/paths
+git config
+brew update
+brew udate
+brew doctor
+brew
+uname
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'jallengerber@gmail.com'
+git config --global user.name 'Jeff Gerber'
+git config --global user.name 'YOUR FULL NAME'
+brew install git
+echo $PATH
+`
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Terminal > Preferences
