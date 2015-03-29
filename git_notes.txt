@@ -1,15 +1,15 @@
+Master is the label on the stable branch.
+We create another secondary branch to work on.
+Head is the label on the active branch with the leading commit.
+When we are happy with our changes we merge branches and delete the secondary branch.
+
 GitHub is a hub of .git/directories
 
-you can push and pull  commits from github
+you can push and pull commits from github to local
 
 you can clone repositories from github
 
 Pull request are how you merge branches on github
-
-
-
-
-
 
 master branch is a label that git creates for us when we initialize our depository.
 
@@ -17,7 +17,8 @@ HEAD is another label that git creates for us when we create our first commit.
 
 Head is *not* a branch
 
-#creates a new branch (label) called git-notes
+# creates a new branch (label) called git-notes
 git branch git notes
 
-# shows which branch is active
+# * shows which branch is active
+git branch
