@@ -21,131 +21,66 @@ history
 
 # Changes to home directory
 ~
-ls subl
+
+# Displays list
 ls
+
+# Displays list for one directory level higher
 ls ..
-ls .
+
+# Displays list for home directory
 ls ~
-ls Doc
-cd ../ a
-cd .. ..
+
+# Changes directory to one level up
 ..
+
+# Prints working directory
 pwd
+
+# Changes directory to "Assistants"
 cd Assistants/
+
+# Changes directory to "Keyboard Layouts" forward slash ignores the following character. In this case the space.
 cd Keyboard\ Layouts/
-ls Printers/
-cd Library/
+
+# Changes to home directory
 cd ~
+
+# Displays the section of the manual pertaining to ls
 man ls
-ls -o
-ls-o
-ls o
-man
-ls -rtl
-ls -tr
-ls -ltr
-ls -l -t
-ls -t
-cd /
+
+# Change Directory
 cd
+
+# Display git version
 git --version
-echo $EDITOR
-subl ~/.config/fish/config.fish
-brew info fish
-brew inf
-brew in
-brew info
-echo $SHELL
-subl /etc/paths
-git config
+
+# Updates brew
 brew update
-brew udate
-brew doctor
-brew
-uname
-curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh
+
+# Sets config for individual computer
 git config --global user.email 'jallengerber@gmail.com'
 git config --global user.name 'Jeff Gerber'
-git config --global user.name 'YOUR FULL NAME'
-brew install git
-echo $PATH
-`
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-fish_update_completions
-curl -fsSL http://git.io/beJs | ruby
-chsh -s /usr/local/bin/fish
-echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
-brew install fish
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
-rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-Terminal > Preferences
-ll
+
+# Creates file moving_around.txt and populates file with history.
+Use > to overwrite info. Use >> to Cacotonate info. In existing file.
 history > moving_around.txt
+
+# Clear terminal screen and move prompt to top.
 clear
+
+# Display Long List
 ls -l
+
+# Display manual section for less
 man less
+
+# Takes the output form history and uses it as input for less. Pipeing.
 history | less
+
+# Displays history
 history
+
+# Changes to home directory
 ~
-ls subl
-ls
-ls ..
-ls .
-ls ~
-ls Doc
-cd ../ a
-cd .. ..
-..
-pwd
-cd Assistants/
-cd Keyboard\ Layouts/
-ls Printers/
-cd Library/
-cd ~
-man ls
-ls -o
-ls-o
-ls o
-man
-ls -rtl
-ls -tr
-ls -ltr
-ls -l -t
-ls -t
-cd /
-cd
-git --version
-echo $EDITOR
-subl ~/.config/fish/config.fish
-brew info fish
-brew inf
-brew in
-brew info
-echo $SHELL
-subl /etc/paths
-git config
-brew update
-brew udate
-brew doctor
-brew
-uname
-curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh
-git config --global user.email 'jallengerber@gmail.com'
-git config --global user.name 'Jeff Gerber'
-git config --global user.name 'YOUR FULL NAME'
-brew install git
-echo $PATH
-`
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-fish_update_completions
-curl -fsSL http://git.io/beJs | ruby
-chsh -s /usr/local/bin/fish
-echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
-brew install fish
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
-rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-Terminal > Preferences
+
