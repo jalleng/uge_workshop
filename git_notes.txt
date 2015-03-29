@@ -4,6 +4,7 @@ you can push and pull  commits from github
 
 you can clone repositories from github
 
+Pull request are how you merge branches on github
 
 
 
